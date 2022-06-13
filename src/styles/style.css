@@ -31,6 +31,12 @@ header {
     box-sizing: border-box;
 }
 
+header .header-left {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
 header .title {
     user-select: none;
     transition: 0.2s;
@@ -43,6 +49,10 @@ header .title:hover {
 header .nav {
     display: flex;
     list-style-type: none;
+}
+
+header .svg-inline--fa {
+    margin-right: 16px;
 }
 
 header .nav li {
