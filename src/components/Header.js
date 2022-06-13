@@ -1,10 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faUser, faTools, faFolder, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import avatar from '../assets/avatar.png';
 
 const Header = () => {
     return (
         <header>
             <a className="header-left" href="#home">
+                <img className="avatar" src={avatar} alt="Weiminh Lam"></img>
                 <h1 className="title">Weiminh Lam</h1>
             </a>
             <ul className="nav">
