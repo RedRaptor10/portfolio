@@ -2,11 +2,13 @@ import { useEffect } from 'react';
 import Header from './Header';
 import Home from './Home';
 import About from './About';
+import Skills from './Skills';
 
 const App = () => {
   useEffect(() => {
     const animations = [
-      document.getElementById('about')
+      document.getElementById('about'),
+      document.getElementById('skills')
     ];
 
     animations.forEach(e => {
@@ -32,6 +34,7 @@ const App = () => {
       <Header />
       <Home />
       <About />
+      <Skills />
     </div>
   );
 };

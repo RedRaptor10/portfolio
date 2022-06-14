@@ -208,3 +208,32 @@ section h1:not(.home-header h1) {
 #about a:hover {
     color: #fff;
 }
+
+/* Skills */
+.skills-group {
+    display: flex;
+    padding: 16px 32px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.skills-group a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 64px;
+    font-weight: bold;
+}
+
+.skills-group a:hover {
+    color: #fff;
+    -webkit-transform: translateY(-10%); /* Chrome / Safari / Opera */
+    -moz-transform: translateY(-10%); /* Firefox */
+    -ms-transform: translateY(-10%); /* Internet Explorer / Edge */
+    transform: translateY(-10%);
+}
+
+.skills-group img {
+    height: 1em;
+    margin-bottom: 16px;
+    font-size: 48px;
+}
