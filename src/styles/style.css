@@ -1,7 +1,8 @@
 :root {
     --primary-color: rgb(32, 64, 96);
     --background-color: rgb(16, 16, 16);
-    --highlight-color: rgb(128, 160, 192);
+    --highlight-color: rgb(64, 96, 128);
+    --link-color: rgb(128, 160, 192);
     --color: rgb(224, 224, 224);
 }
 
@@ -41,6 +42,41 @@ body {
     -ms-transform: translateY(0); /* Internet Explorer / Edge */
     transform: translateY(0);
     opacity: 1;
+}
+
+/* Top Button */
+.top-btn {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 0 64px 64px 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+}
+
+.top-btn button {
+    background: var(--primary-color);
+    padding: 22px 32px;
+    color: var(--color);
+    font-size: 32px;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.top-btn button:hover {
+    background: var(--highlight-color);
+}
+
+.top-btn button:active {
+    background: var(--primary-color);
+}
+
+.top-btn-show {
+    opacity: 1;
+    visibility: visible;
 }
 
 /* Header */
@@ -163,7 +199,7 @@ section h1:not(.home-header h1) {
 }
 
 .home-header-highlight {
-    color: var(--highlight-color);
+    color: var(--link-color);
 }
 
 .home-header button {
@@ -201,7 +237,7 @@ section h1:not(.home-header h1) {
 }
 
 #about a {
-    color: var(--highlight-color);
+    color: var(--link-color);
     text-decoration: underline;
 }
 
