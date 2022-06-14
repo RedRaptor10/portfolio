@@ -1,6 +1,6 @@
 const Home = () => {
     return (
-        <section id="home">
+        <section id="home" className="transition hidden">
             <div className="home-header-container">
                 <div className="home-header">
                     <h1>Hello. I'm <span className="home-header-highlight">Weiminh Lam</span>.</h1>
