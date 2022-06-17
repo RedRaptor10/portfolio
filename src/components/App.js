@@ -3,6 +3,8 @@ import Header from './Header';
 import Home from './Home';
 import About from './About';
 import Skills from './Skills';
+import Projects from './Projects';
+import TopButton from './TopButton';
 
 const App = () => {
   useEffect(() => {
@@ -32,9 +34,13 @@ const App = () => {
   return (
     <div className="app">
       <Header />
-      <Home />
-      <About />
-      <Skills />
+      <main>
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+      </main>
+      <TopButton />
     </div>
   );
 };
