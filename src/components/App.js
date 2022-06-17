@@ -10,8 +10,9 @@ const App = () => {
   useEffect(() => {
     const animations = [
       document.getElementById('about'),
-      document.getElementById('skills')
-    ];
+      document.getElementById('skills'),
+      Array.from(document.querySelectorAll('.card')) // Convert NodeList to array
+    ].flat(); // Flatten nested array
 
     animations.forEach(e => {
       e.classList.add('transition', 'hidden');

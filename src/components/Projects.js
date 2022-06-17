@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTools, faEye, faCode, faPause } from '@fortawesome/free-solid-svg-icons';
+import { faTools, faEye, faCode } from '@fortawesome/free-solid-svg-icons';
 import projects from '../data/projects';
 
 // Import Project Thumbs From Assets Using Webpack
