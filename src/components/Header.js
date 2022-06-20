@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faUser, faTools, faFolder, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faHome, faUser, faTools, faFolder, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import avatar from '../assets/avatar.png';
 
 const Header = () => {
@@ -13,12 +13,19 @@ const Header = () => {
         }
     });
 
+    const toggleNav = () => {
+        const nav = document.querySelector('.nav');
+
+        nav.classList.toggle('nav-visible');
+    };
+
     return (
         <header>
             <a className="header-left" href="#home">
                 <img className="avatar" src={avatar} alt="Weiminh Lam"></img>
                 <h1 className="title">Weiminh Lam</h1>
             </a>
+            <FontAwesomeIcon icon={faBars} onClick={toggleNav} />
             <ul className="nav">
                 <li><a href="#home"><FontAwesomeIcon icon={faHome} />Home</a></li>
                 <li><a href="#about"><FontAwesomeIcon icon={faUser} />About</a></li>
