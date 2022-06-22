@@ -314,12 +314,12 @@ section h1:not(.home-header h1) {
     box-sizing: border-box;
 }
 
-#project-thumb-1 {
-    background-size: 100%;
-}
-
 #project-thumb-2 {
     background-position: center;
+}
+
+#project-thumb-3 {
+    background-size: 100%;
 }
 
 #project-thumb-5, #project-thumb-6 {

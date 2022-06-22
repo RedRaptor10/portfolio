@@ -1,13 +1,14 @@
 const projects = [
     {
-        name: 'My Trakt',
-        description: "A viewer app that uses the Trakt API and TMDB API to display a user's movie and show " +
-            "collection. Features include browsing a collection or list, displaying a user's top 5 movies and " +
-            "shows, searching for a specific item(s), and pagination for easier browsing.",
-        tools: 'JavaScript, React, HTML, CSS',
-        thumb: 'my-trakt.jpg',
-        demo: 'https://redraptor10.github.io/my-trakt/',
-        source: 'https://github.com/RedRaptor10/my-trakt'
+        name: 'Fakeddit',
+        description: 'A clone of popular social media website, Reddit. Users can create an account ' +
+            'and log in, browse different subfakeddits, create/delete posts and comments, upvote/downvote ' +
+            'posts and comments, collapse comments, sort posts and comments, filter posts by flair, and ' +
+            'search posts.',
+        tools: 'JavaScript, React, HTML, CSS, Firebase',
+        thumb: 'fakeddit.jpg',
+        demo: 'https://redraptor10.github.io/fakeddit',
+        source: 'https://github.com/RedRaptor10/fakeddit'
     },
     {
         name: 'Odinbook',
@@ -22,15 +23,14 @@ const projects = [
         source: 'https://github.com/RedRaptor10/odinbook'
     },
     {
-        name: 'Fakeddit',
-        description: 'A clone of popular social media website, Reddit. Users can create an account ' +
-            'and log in, browse different subfakeddits, create/delete posts and comments, upvote/downvote ' +
-            'posts and comments, collapse comments, sort posts and comments, filter posts by flair, and ' +
-            'search posts.',
-        tools: 'JavaScript, React, HTML, CSS, Firebase',
-        thumb: 'fakeddit.jpg',
-        demo: 'https://redraptor10.github.io/fakeddit',
-        source: 'https://github.com/RedRaptor10/fakeddit'
+        name: 'My Trakt',
+        description: "A viewer app that uses the Trakt API and TMDB API to display a user's movie and show " +
+            "collection. Features include browsing a collection or list, displaying a user's top 5 movies and " +
+            "shows, searching for a specific item(s), and pagination for easier browsing.",
+        tools: 'JavaScript, React, HTML, CSS',
+        thumb: 'my-trakt.jpg',
+        demo: 'https://redraptor10.github.io/my-trakt/',
+        source: 'https://github.com/RedRaptor10/my-trakt'
     },
     {
         name: 'Game Inventory',
