@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.876204fa.css",
-    "main.js": "/portfolio/static/js/main.16db915b.js",
+    "main.css": "/portfolio/static/css/main.1e47c1c6.css",
+    "main.js": "/portfolio/static/js/main.80921ee8.js",
     "static/media/my-trakt.jpg": "/portfolio/static/media/my-trakt.dc19d82cf589a560387e.jpg",
     "static/media/wheres-waldo.jpg": "/portfolio/static/media/wheres-waldo.3f473c8dc90455465730.jpg",
-    "static/media/avatar.png": "/portfolio/static/media/avatar.b1690d0ecd28bda40b2e.png",
     "static/media/game-inventory.jpg": "/portfolio/static/media/game-inventory.afdf7542c60df3770aea.jpg",
     "static/media/fakeddit.jpg": "/portfolio/static/media/fakeddit.9aee41a031ad0a77b996.jpg",
     "static/media/battleship.jpg": "/portfolio/static/media/battleship.5619f0696eec3bb4b643.jpg",
@@ -27,11 +26,11 @@
     "static/media/html5.svg": "/portfolio/static/media/html5.f318c8b1d5945fa9adc8.svg",
     "static/media/javascript.svg": "/portfolio/static/media/javascript.b879f838faf1cb951d1c.svg",
     "static/media/react.svg": "/portfolio/static/media/react.638b460cfd7b8709a2ba.svg",
-    "main.876204fa.css.map": "/portfolio/static/css/main.876204fa.css.map",
-    "main.16db915b.js.map": "/portfolio/static/js/main.16db915b.js.map"
+    "main.1e47c1c6.css.map": "/portfolio/static/css/main.1e47c1c6.css.map",
+    "main.80921ee8.js.map": "/portfolio/static/js/main.80921ee8.js.map"
   },
   "entrypoints": [
-    "static/css/main.876204fa.css",
-    "static/js/main.16db915b.js"
+    "static/css/main.1e47c1c6.css",
+    "static/js/main.80921ee8.js"
   ]
 }
