@@ -4,7 +4,8 @@ const projects = [
         description: 'A clone of popular social media website, Reddit. Users can create an account ' +
             'and log in, browse different subfakeddits, create/delete posts and comments, upvote/downvote ' +
             'posts and comments, collapse comments, sort posts and comments, filter posts by flair, and ' +
-            'search posts.',
+            'search posts. To get started, either create an account or log in with an existing account:\n' +
+            'Username: johndoe\nPassword: johndoe',
         tools: 'JavaScript, React, HTML, CSS, Firebase',
         thumb: 'fakeddit.jpg',
         demo: 'https://redraptor10.github.io/fakeddit',
