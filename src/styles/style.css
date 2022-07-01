@@ -463,7 +463,7 @@ section h1:not(.home-header h1) {
     header .nav {
         display: block;
         position: fixed;
-        background: rgba(0, 0, 0, 0.9);
+        background: rgba(24, 32, 56, 0.9);
         width: 100%;
         height: 100%;
         top: 0;
@@ -491,6 +491,15 @@ section h1:not(.home-header h1) {
     }
 
     /* Home */
+    #tsparticles {
+        opacity: 0.25;
+    }
+
+    .home-header {
+        width: 100%;
+        text-align: center;
+    }
+
     .home-header h1 {
         font-size: 32px;
     }
@@ -499,18 +508,8 @@ section h1:not(.home-header h1) {
         font-size: 16px;
     }
 
-    /* About */
-    .about-content {
-        display: unset;
-    }
-
-    .section-left, .section-right {
-        width: 100%;
-    }
-
-    #about p {
-        font-size: 14px;
-        line-height: 28px;
+    .home-header span {
+        font-size: 20px;
     }
 
     /* Skills */
