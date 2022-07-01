@@ -10,7 +10,7 @@ const About = () => {
                 </div>
                 <div className="section-right">
                     <p>
-                        Hi. My name is Weiminh Lam. I'm a self-taught <b>full-stack web developer</b> with a degree in Computer Science.
+                        Hi. My name is Weiminh Lam. I am a <b>full-stack web developer</b> with a degree in Computer Science.
                         I've been learning web development since the start of 2021 through online resources such as&nbsp;
                         <a href="https://www.theodinproject.com" target="_blank" rel="noreferrer">The Odin Project</a>.
                     </p>
