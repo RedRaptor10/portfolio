@@ -183,6 +183,10 @@ section h1:not(.home-header h1) {
     height: 100%;
 }
 
+#tsparticles {
+    z-index: -9999;
+}
+
 .home-header {
     width: 50%;
     margin-top: -64px;
