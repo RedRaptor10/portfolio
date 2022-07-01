@@ -1,37 +1,23 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faHome, faUser, faTools, faFolder, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import avatar from '../assets/avatar.png';
+import { faBars, faHome, faTools, faFolder, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
-    window.addEventListener('scroll', () => {
-        const header = document.querySelector('header');
-
-        if (window.scrollY > 100) {
-            header.classList.add('header-background');
-        } else {
-            header.classList.remove('header-background');
-        }
-    });
-
     const toggleNav = () => {
         const nav = document.querySelector('.nav');
-
         nav.classList.toggle('nav-visible');
     };
 
     return (
         <header>
             <a className="header-left" href="#home">
-                <img className="avatar" src={avatar} alt="Weiminh Lam"></img>
-                <h1 className="title">Weiminh Lam</h1>
+                <h1>Weiminh Lam</h1>
             </a>
             <FontAwesomeIcon icon={faBars} onClick={toggleNav} />
             <ul className="nav">
-                <li><a href="#home"><FontAwesomeIcon icon={faHome} />Home</a></li>
-                <li><a href="#about"><FontAwesomeIcon icon={faUser} />About</a></li>
-                <li><a href="#skills"><FontAwesomeIcon icon={faTools} />Skills</a></li>
-                <li><a href="#projects"><FontAwesomeIcon icon={faFolder} />Projects</a></li>
-                <li><a href="#contact"><FontAwesomeIcon icon={faEnvelope} />Contact</a></li>
+                <li className="nav-item"><a href="#home"><FontAwesomeIcon icon={faHome} />Home</a></li>
+                <li className="nav-item"><a href="#skills"><FontAwesomeIcon icon={faTools} />Skills</a></li>
+                <li className="nav-item"><a href="#projects"><FontAwesomeIcon icon={faFolder} />Projects</a></li>
+                <li className="nav-item"><a href="#contact"><FontAwesomeIcon icon={faEnvelope} />Contact</a></li>
             </ul>
         </header>
     );

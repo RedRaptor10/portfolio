@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import Header from './Header';
 import Home from './Home';
-import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
@@ -10,7 +9,6 @@ import TopButton from './TopButton';
 const App = () => {
   useEffect(() => {
     const animations = [
-      document.getElementById('about'),
       document.getElementById('skills'),
       Array.from(document.querySelectorAll('.card')) // Convert NodeList to array
     ].flat(); // Flatten nested array
@@ -38,7 +36,6 @@ const App = () => {
       <Header />
       <main>
         <Home />
-        <About />
         <Skills />
         <Projects />
         <Contact />
