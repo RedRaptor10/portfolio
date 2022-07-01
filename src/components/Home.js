@@ -10,6 +10,9 @@ const Home = () => {
     };
 
     const particlesOptions = {
+        fullScreen: {
+            zIndex: -9999
+        },
         interactivity: {
             events: {
                 onHover: {
@@ -49,8 +52,8 @@ const Home = () => {
 
     return (
         <section id="home" className="transition hidden">
+            <Particles id="tsparticles" init={particlesInit} options={particlesOptions} />
             <div className="home-header-container">
-                <Particles id="tsparticles" init={particlesInit} options={particlesOptions} />
                 <div className="home-header">
                     <h1>Weiminh Lam</h1>
                     <div className="about">
