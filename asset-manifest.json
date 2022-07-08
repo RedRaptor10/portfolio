@@ -1,14 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1e47c1c6.css",
-    "main.js": "/portfolio/static/js/main.2569668f.js",
+    "main.css": "/portfolio/static/css/main.d5e0e7cf.css",
+    "main.js": "/portfolio/static/js/main.f8dd3664.js",
+    "static/media/fakeddit.jpg": "/portfolio/static/media/fakeddit.1fcc2d6ed81a8dd6ce6a.jpg",
     "static/media/my-trakt.jpg": "/portfolio/static/media/my-trakt.dc19d82cf589a560387e.jpg",
-    "static/media/wheres-waldo.jpg": "/portfolio/static/media/wheres-waldo.3f473c8dc90455465730.jpg",
-    "static/media/game-inventory.jpg": "/portfolio/static/media/game-inventory.afdf7542c60df3770aea.jpg",
-    "static/media/fakeddit.jpg": "/portfolio/static/media/fakeddit.9aee41a031ad0a77b996.jpg",
-    "static/media/battleship.jpg": "/portfolio/static/media/battleship.5619f0696eec3bb4b643.jpg",
-    "static/media/fakebook.jpg": "/portfolio/static/media/fakebook.b9ae6a82deb45abf3e90.jpg",
-    "static/media/calculator.jpg": "/portfolio/static/media/calculator.d64f965b73b2f116683e.jpg",
+    "static/media/fakebook.jpg": "/portfolio/static/media/fakebook.7985840976feb757da7c.jpg",
+    "static/media/calculator.jpg": "/portfolio/static/media/calculator.cbf131d637abf2b00b51.jpg",
     "static/media/pug.svg": "/portfolio/static/media/pug.b0c23d5d3894151af63c.svg",
     "static/media/wordpress.svg": "/portfolio/static/media/wordpress.558f4cc800dc43b44392.svg",
     "static/media/firebase.svg": "/portfolio/static/media/firebase.ea1a2d6693eea8cbaf11.svg",
@@ -26,11 +23,11 @@
     "static/media/html5.svg": "/portfolio/static/media/html5.f318c8b1d5945fa9adc8.svg",
     "static/media/javascript.svg": "/portfolio/static/media/javascript.b879f838faf1cb951d1c.svg",
     "static/media/react.svg": "/portfolio/static/media/react.638b460cfd7b8709a2ba.svg",
-    "main.1e47c1c6.css.map": "/portfolio/static/css/main.1e47c1c6.css.map",
-    "main.2569668f.js.map": "/portfolio/static/js/main.2569668f.js.map"
+    "main.d5e0e7cf.css.map": "/portfolio/static/css/main.d5e0e7cf.css.map",
+    "main.f8dd3664.js.map": "/portfolio/static/js/main.f8dd3664.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e47c1c6.css",
-    "static/js/main.2569668f.js"
+    "static/css/main.d5e0e7cf.css",
+    "static/js/main.f8dd3664.js"
   ]
 }
