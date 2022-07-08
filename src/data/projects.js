@@ -31,38 +31,6 @@ const projects = [
         source: 'https://github.com/RedRaptor10/my-trakt'
     },
     {
-        name: 'Game Inventory',
-        description: 'An inventory app that allows a user to manage a game library. ' +
-            'The inventory follows basic CRUD guidelines, allowing the user to Create, ' +
-            'Read, Update, and Delete game data in the database.',
-        tools: 'JavaScript, HTML, CSS, NodeJS / Express, Mongoose (MongoDB)',
-        thumb: 'game-inventory.jpg',
-        demo: 'https://glacial-tor-43943.herokuapp.com/',
-        source: 'https://github.com/RedRaptor10/inventory-app'
-    },
-    {
-        name: "Where's Waldo?",
-        description: "A game of Where's Waldo. Players must find characters Waldo, Odlaw, " +
-            "and Wizard by clicking anywhere on the image and selecting the character's name. " +
-            "If the player's time is within the top 10 highest scores, they can submit it to the " +
-            "leaderboard.",
-        tools: 'JavaScript, React, HTML, CSS, Firebase',
-        thumb: 'wheres-waldo.jpg',
-        demo: 'https://redraptor10.github.io/Wheres-Waldo',
-        source: 'https://github.com/RedRaptor10/Wheres-Waldo'
-    },
-    {
-        name: 'Battleship',
-        description: 'A game of Battleship played against an AI. The board can be set up at the ' +
-        'start of the game by dragging each ship to a designated area. Ships can be rotated or ' +
-        'placed automatically. Clicking on an enemy board space will select the area for attack. ' +
-        'The player that destroys all of their enemy ships first wins.',
-        tools: 'JavaScript, HTML, CSS',
-        thumb: 'battleship.jpg',
-        demo: 'https://redraptor10.github.io/Battleship',
-        source: 'https://github.com/RedRaptor10/Battleship'
-    },
-    {
         name: 'Calculator',
         description: 'A simple calculator app that features all the basic functions of a calculator. ' +
             'Users can add, subtract, multiply, and divide numbers. Additionally, users can delete ' +
