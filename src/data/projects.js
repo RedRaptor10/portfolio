@@ -1,5 +1,14 @@
 const projects = [
     {
+        name: 'Combo List',
+        description: 'A web app used for keeping track of combos in fighting games. Users can view combos ' +
+            'for individual characters, create combos, and edit/delete existing combos.',
+        tools: 'JavaScript, React, HTML, CSS, NodeJS / Express, Mongoose (MongoDB)',
+        thumb: 'combo-list.jpg',
+        demo: 'https://redraptor10.github.io/combo-list/',
+        source: 'https://github.com/RedRaptor10/combo-list'
+    },
+    {
         name: 'Fakeddit',
         description: 'A clone of popular social media website, Reddit. Users can create an account ' +
             'and log in, browse different subfakeddits, create/delete posts and comments, upvote/downvote ' +
@@ -7,7 +16,7 @@ const projects = [
             'search posts.',
         tools: 'JavaScript, React, HTML, CSS, Firebase',
         thumb: 'fakeddit.jpg',
-        demo: 'https://redraptor10.github.io/fakeddit',
+        demo: 'https://redraptor10.github.io/fakeddit/',
         source: 'https://github.com/RedRaptor10/fakeddit'
     },
     {
