@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d5e0e7cf.css",
-    "main.js": "/portfolio/static/js/main.f8dd3664.js",
+    "main.js": "/portfolio/static/js/main.75f3711d.js",
     "static/media/fakeddit.jpg": "/portfolio/static/media/fakeddit.1fcc2d6ed81a8dd6ce6a.jpg",
     "static/media/my-trakt.jpg": "/portfolio/static/media/my-trakt.dc19d82cf589a560387e.jpg",
     "static/media/fakebook.jpg": "/portfolio/static/media/fakebook.7985840976feb757da7c.jpg",
     "static/media/calculator.jpg": "/portfolio/static/media/calculator.cbf131d637abf2b00b51.jpg",
+    "static/media/combo-list.jpg": "/portfolio/static/media/combo-list.1b210f0eeb969c2d0eee.jpg",
     "static/media/pug.svg": "/portfolio/static/media/pug.b0c23d5d3894151af63c.svg",
     "static/media/wordpress.svg": "/portfolio/static/media/wordpress.558f4cc800dc43b44392.svg",
     "static/media/firebase.svg": "/portfolio/static/media/firebase.ea1a2d6693eea8cbaf11.svg",
@@ -24,10 +25,10 @@
     "static/media/javascript.svg": "/portfolio/static/media/javascript.b879f838faf1cb951d1c.svg",
     "static/media/react.svg": "/portfolio/static/media/react.638b460cfd7b8709a2ba.svg",
     "main.d5e0e7cf.css.map": "/portfolio/static/css/main.d5e0e7cf.css.map",
-    "main.f8dd3664.js.map": "/portfolio/static/js/main.f8dd3664.js.map"
+    "main.75f3711d.js.map": "/portfolio/static/js/main.75f3711d.js.map"
   },
   "entrypoints": [
     "static/css/main.d5e0e7cf.css",
-    "static/js/main.f8dd3664.js"
+    "static/js/main.75f3711d.js"
   ]
 }
