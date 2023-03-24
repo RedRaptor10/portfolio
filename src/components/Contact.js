@@ -19,8 +19,8 @@ const Contact = () => {
                 <div className="contact-item">
                     <div><FontAwesomeIcon icon={faLinkedin} />LinkedIn</div>
                     <div>
-                        <a href="https://www.linkedin.com/in/weiminh-lam/339198129" target="_blank" rel="noreferrer">
-                            linkedin.com/in/weiminh-lam/339198129
+                        <a href="https://www.linkedin.com/in/weiminh-lam-339198129" target="_blank" rel="noreferrer">
+                            linkedin.com/in/weiminh-lam-339198129
                         </a>
                     </div>
                 </div>
